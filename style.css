@@ -65,7 +65,7 @@
   font-size: 1.1rem;
   padding-left: 55px;
   background: #fff;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 .search-box input::placeholder {
   color: #929292;
@@ -91,7 +91,7 @@
   overflow: hidden;
   position: relative;
   margin-bottom: 14px;
-  border-radius: 4px;
+  border-radius: 0px;
 }
 .gallery .images img {
   width: 100%;
@@ -129,7 +129,7 @@ button, i {
   outline: none;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: 0.2s ease;
 }
 .details button {
@@ -142,7 +142,7 @@ button, i {
 }
 .gallery .load-more {
   color: #fff;
-  background: #8A6CFF;
+  background: #389fff;
   margin: 50px 0;
   font-size: 1.2rem;
   padding: 12px 27px;
@@ -152,7 +152,7 @@ button, i {
   pointer-events: none;
 }
 .gallery .load-more:hover {
-  background: #704dff;
+  background: #1377fa;
 }
 
 .lightbox {
@@ -172,7 +172,7 @@ button, i {
   padding: 20px;
   max-width: 850px;
   background: #fff;
-  border-radius: 6px;
+  border-radius: 0px;
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) scale(0.9);
@@ -206,12 +206,12 @@ header .buttons i {
   font-size: 1.2rem;
   line-height: 40px;
   text-align: center;
-  background: #8A6CFF;
-  border-radius: 4px;
+  background: #4c9aff;
+  border-radius: 0px;
   transition: 0.2s ease;
 }
 header .buttons i:first-child:hover {
-  background: #704dff;
+  background: #1377fa;
 }
 header .buttons i:last-child {
   margin-left: 10px;
@@ -219,7 +219,7 @@ header .buttons i:last-child {
   background: #6C757D;
 }
 header .buttons i:last-child:hover {
-  background: #5f666d;
+  background: #4d5358;
 }
 .wrapper .preview-img {
   display: flex;
