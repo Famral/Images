@@ -7,7 +7,7 @@ const closeImgBtn = lightbox.querySelector(".close-icon");
 
 // API key, paginations, searchTerm variables
 const apiKey = "w4hETnHpakRRMvfYM8kQVxD34jOh5qQKPCZC3vrC5jHlhoiWatKAsh7P";
-const perPage = 20;
+const perPage = 30;
 let currentPage = 1;
 let searchTerm = null;
 
