@@ -93,3 +93,8 @@ loadMoreBtn.addEventListener("click", loadMoreImages);
 searchInput.addEventListener("keyup", loadSearchImages);
 closeImgBtn.addEventListener("click", hideLightbox);
 downloadImgBtn.addEventListener("click", (e) => downloadImg(e.target.dataset.img));
+
+
+document.addEventListener('contextmenu', event => {
+    event.preventDefault();
+});
